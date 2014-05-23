@@ -13,4 +13,4 @@ def simps(func,a,b,N):
     k2 = np.arange(1,N/2)
     I = (1./3.)*h*(func(a)+func(b)+ 4.*func(a+(2*k1-1)*h).sum() +2.*func(a+2*k2*h).sum())
     return I
-    print "Simpson's rule integral="
+    print "Simpson's rule integral= "
